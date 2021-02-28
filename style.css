@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: aqua;
+}
+
+.flex-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.flex-container2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.row{
+    width: 1279px;
+    max-width: 1279px;
+    height: 530px;
+    max-height: 530px;
+}
+
+
+#boxl{
+    background-color:lightcoral;
+    height: 530px;
+    width: 100%;
+    margin: 10px;
+}
+
+#boxl:hover{
+    transition: background-color 2s ease-out;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#boxr{
+    height: 530px;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#box1{
+    background-color:lightcoral;
+    height: 100%;
+    margin: 10px;
+    margin-top: 0px;
+}
+
+.row_box{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin:10px;
+    margin-bottom: 0px;
+
+}
+
+#space{
+    height: 30px;
+    width: 100%;
+}
+
+#box2{
+    background-color:lightcoral;
+    height: 100%;
+    width: 100%;
+    margin-right: 10px;
+}
+
+
+.box3{
+    background: lightcoral;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+
+
+#box1:hover{
+    transition: background-color 2s ease-out;
+    background-color: purple;
+    cursor: pointer;
+}
+
+#box2:hover{
+    transition: background-color 2s ease-out;
+    background-color: purple;
+    cursor: pointer;
+}
+
+.box3:hover{
+    transition: background-color 2s ease-out;
+    background-color: purple;
+    cursor: pointer;
+}
